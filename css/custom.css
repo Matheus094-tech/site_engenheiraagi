@@ -119,6 +119,18 @@ button {
     max-width: 300px;
 }
 
+/* Selecionar o botão quando ele não está colapsado */
+.accordion-button:not(.collapsed) {
+    color: #e8583b !important; /* Cor do texto quando expandido */
+}
+
+/* Transição suave para a cor e o fundo */
+.accordion-button {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+
 
 div#whatasapp {
     position: fixed;
